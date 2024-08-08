@@ -1,0 +1,29 @@
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 2px black solid;
+    filter: drop-shadow(10px 10px 6px #000000);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: blanchedalmond;
+}
+.title{
+    padding: 20px;
+}
+
+
+button{
+    border-radius: 10px;
+    margin: 15px;
+    height: 35px;
+    width:auto;
+}
